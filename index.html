@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/505a7c821f.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Frontend Mentor | Ping coming soon page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+</head>
+
+<body>
+
+  <div class="container">
+    <img src="./images/logo.svg" class="logo">
+    <div class="head-content flex column justify-center">
+      <h1>We are launching <span>soon!</span></h1>
+      <p class="subline">Subscribe and get notified</p>
+      <div class="signup-container" id="signup">
+        <div class="email-container flex">
+          <input type="email" name="email" id="emailInput" placeholder="Your email adress...">
+          <div class="errorContainer flex" id="errorContainer">
+            <p id="inputMsg"></p>
+          </div>
+        </div>
+
+        <button id="submitBtn">Notify Me</button>
+      </div>
+      <div id="successContainer">
+        <h2>You are successfully subscribed 🎉</h2>
+        <p class="news">Please confirm your subscription in the mail we sent you</p>
+      </div>
+    </div>
+    <img src="./images/illustration-dashboard.png" class="illustration">
+
+    <footer> 
+      <div class="social-container flex justify-center">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+      </div>
+      <p>© Copyright Ping. All rights reserved.</p>
+    </footer>
+
+  </div>
+
+<script src="index.js" type="module"></script>
+ 
+</body>
+
+</html>
