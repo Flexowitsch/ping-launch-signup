@@ -53,6 +53,7 @@ submitBtn.addEventListener("click", function() {
     if (emailValidity) {
         push(pingListInDB, userEmail)
         signupContainer.style.display = "none"
+        errorContainer.style.display = "none"
         successContainer.style.display = "block"
 
     } else {

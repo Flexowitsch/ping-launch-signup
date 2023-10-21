@@ -37,6 +37,13 @@ body {
     padding: 5rem 0rem 2rem 0rem;
 }
 
+@media(max-width: 390px) {
+    .container {
+        width: 100%;
+        
+    }
+}
+
 h1 {
     color: #969696;
     font-size: 3rem;
@@ -115,6 +122,7 @@ img {
     .signup-container {
         flex-direction: column;
         gap: 0.63rem;
+        padding: 0 4rem;
     }
 }
 
@@ -181,6 +189,7 @@ button {
     button {
         padding: 0.75rem;
         flex: 1;
+        width: 100%;
         font-size: 0.75rem;
         font-style: normal;
         font-weight: 600;
@@ -196,7 +205,7 @@ button:hover {
 
 .errorContainer {
     margin: 0;
-    /* display: none; */
+    display: none;
 }
 
 #inputMsg {
